@@ -12,7 +12,7 @@ jobs:
 name: first workflow
 on:  workflow_dispatch
 jobs:
-  test:
+  deploy:
     run-on:  ubuntu-latest
     steps:
     - name:  Get code
